@@ -1,0 +1,4 @@
+package*.json
+
+browserExtension/node_modules/*
+browserExtension/my-extension/node_modules/*
