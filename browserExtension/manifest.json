@@ -1,0 +1,10 @@
+{
+  "name": "request url",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "request url",
+  "background": {
+    "scripts": ["src/background.js"]
+  },
+  "permissions": ["tabs", "contextMenus"]
+}

@@ -1,1 +1,7 @@
-[Vue.jsでChrome拡張機能を開発する方法](https://r17n.page/2019/09/03/chrome-extension-with-vue-web-extension/)
+## 機能
+linkで右クリックしたときに表示されるcontext menuの項目を追加する。
+追加した項目を押下すると、linkのhrefをqueryとして`localhost:8081/url`にgetリクエストを投げます。
+
+## 対応ブラウザ
+* chrome
+
