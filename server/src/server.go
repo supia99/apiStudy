@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	scrape "supia99/scrapeero/cmd"
 )
 
 func homePage(w http.ResponseWriter, r *http.Request) {
@@ -17,6 +18,7 @@ func requestURL(w http.ResponseWriter, r *http.Request) {
 
 	url := r.URL.Query().Get("url")
 	fmt.Printf("url:%s\n", url)
+	scrape.Accept(url)
 }
 
 func handleRequests() {
