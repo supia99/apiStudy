@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	scrape "supia99/scrapeero/cmd"
+	scrape "supia99/server/scrapeero/cmd"
 )
 
 func homePage(w http.ResponseWriter, r *http.Request) {
